@@ -1,0 +1,7 @@
+const { MessageEmbed } = require('discord.js')
+
+module.exports = {
+	name: 'ping',
+	async runInteraction (client, interaction) {
+	}
+};

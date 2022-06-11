@@ -1,0 +1,31 @@
+{
+  "name": "ymule-bot",
+  "version": "1.0.0-beta.2.0.1",
+  "betaVerions": "-beta.2.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec 'node index'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "dayjs": "1.10.7",
+    "discord.js": "13.6.0",
+    "dotenv": "16.0.0",
+    "glob": "7.2.0",
+    "mongoose": "6.2.3"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16"
+  }
+}
